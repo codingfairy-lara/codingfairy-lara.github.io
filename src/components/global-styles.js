@@ -101,10 +101,10 @@ body::-webkit-scrollbar-track {
 }
 
 body {
-  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue,
+  font-family: 'Overpass', 'IBM Plex Sans KR', 'Poppins', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue,
     helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   transition-property: background-color, color, background;
-  transition-duration: 0.3s;
+  transition-duration: 0.3s;  
   transition-timing-function: ease-out;
   background-attachment: fixed;
   font-smoothing: antialiased;
@@ -113,7 +113,8 @@ body {
 body.light-mode {
   color: #37292C;
   background-color: white;
-  background-image: linear-gradient(315deg, #ccfbf1 0%, #ffe4e6 50%);
+  // background-image: linear-gradient(315deg, #ccfbf1 0%, #ffe4e6 50%);
+  background-image: linear-gradient(315deg, rgb(149 169 192 / 60%) 0%, rgb(226 221 214 / 50%) 50%);
 }
 
 body.dark-mode {
